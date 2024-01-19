@@ -1,0 +1,3 @@
+pyinstaller main.py --onefile -w
+
+nuitka --standalone myscript.py

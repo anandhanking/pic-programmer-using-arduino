@@ -1,0 +1,17 @@
+Console.WriteLine("cd C:\cygwin64\usr\local\bin\ardpicprog.exe");
+Console.WriteLine("ardpicprog -p /dev/com3 --erase --burn -i D:/code/code.hex");
+
+
+Read  ==> "ardpicprog -p /dev/com3 -o D:/read/read.hex"
+
+
+PIN_VDD      2           
+PIN_MCLR     3           
+PIN_CLOCK    4           
+PIN_DATA     5 
+
+
+
+give me a tkinter code to create a windows application which will have 2 buttons called read and Write
+if write button pressed the file selection window will open and waits to choose file then it need to add the file location to the "LOCATION" area in this command "ardpicprog -p /dev/com3 --erase --burn -i LOCATION.hex" and after selection the popup need to rise and it wants to ask for "yes or no to write" command. if yes pressed then the software need to open cmd and sends the completed command with file locaion
+if read button clicks it need to open file selection window and add location to "LOCATION" on this code and send this code "ardpicprog -p /dev/com3 -o "LOCATION" on cmd. after confirmation windows

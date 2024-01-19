@@ -1,0 +1,12 @@
+[project]
+name = "Ardpicprog_by_Nithy"
+version = "1.0.0"
+
+[[target]]
+platform = "windows"
+target = "x86_64"
+
+[[bin]]
+name = "ardpicprog.exe"
+path = "main2.py"
+entrypoint = "myapp:main"
