@@ -1,0 +1,7 @@
+* first create the "code" named folder on "D" drive.
+
+* need to move and rename Uploading HEX file  as "write.hex" to the following location:
+
+		* D:\code\write.hex
+
+* And the code read from Microcontroller will be saved to "D:\code\read.hex".

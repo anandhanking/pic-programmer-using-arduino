@@ -1,0 +1,7 @@
+2023/01/01 14:33:05 Starting cygwin install, version 2.924
+2023/01/01 14:33:05 User has backup/restore rights
+2023/01/01 14:33:05 User has symlink creation right
+2023/01/01 14:33:05 Current Directory: C:\WINDOWS\System32
+Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2023/01/01 14:33:09 mbox : Are you sure you want to exit setup? Any current download or installation will be aborted.
+2023/01/01 14:33:10 Ending cygwin install

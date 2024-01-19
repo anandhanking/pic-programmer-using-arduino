@@ -1,0 +1,23 @@
+*select " make, gcc compiler, gcc compiler c++, install," in cygwin software.
+
+*open cygwin terminal, 
+	
+	*specify the path of ardpicprog folder in terminal using CD command
+	*compile using "make
+			make install -n
+			make install "
+	*if error aquire like"ownership problem"
+		*change security settings of folder and "C:/cygwin/bin/make.exe,install.exe"
+		*also change security settings for ardpicprog.exe which created in ardpicprog.
+		*also change security settings for all related folder.
+ 	
+	*then copy the following files from ardpicprog "ardpicprog.exe to C:/cygwin/usr/local/bin ,
+							ardpicprog.1 to usr/man/man1"
+
+
+	*then open cygwin terminal or mintty terminal(C:/cygwin/bin/mintty.exe)
+
+		*type --help or -h for help
+		*"ardpicprog -p /dev/com3 --erase --burn -i D:/blink.hex" for programming
+		*beforehand need to upload specified arduino Picprogram.ino with corrected pin values in code.
+

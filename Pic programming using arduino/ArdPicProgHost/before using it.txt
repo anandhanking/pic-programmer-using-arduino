@@ -1,0 +1,1 @@
+*need to change "Baudrate" in Picprogram.ino arduino file to 9600 or 115200 to work with this GUI

@@ -1,0 +1,1 @@
+ardpicprog -p /dev/com3 --erase --burn -i D:/code/code.hex
